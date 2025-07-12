@@ -1,0 +1,703 @@
+Internet of Things
+
+
+Reasons of IoT
+● Data deluge : The explosion of theamount of data collected and
+exchanged is one of the major reasonwhy IoT came in existence. Forecasts
+indicate that in the year 2015 more than220 Exabytes of data are stored. So we
+need novel mechanisms to find, fetch,and transmit data.
+● There is decrease in energy required tooperate intelligent devices. The search
+will be for a zero level of entropy where the device or system will have to harvest its own energy. 
+● Miniaturization of devices: the devices are becoming increasingly smaller.
+● Autonomic management: the
+devices/systems of future will have selfmanagement, self-healing, and selfconfiguration capabilities.
+● IPv6 as an integration layer: allows to exploit the potential of IPv6 and relatedstandards.
+
+
+Internet of Things Enablers
+* Energy
+* Intelligence
+* Communication
+* Integration
+* Interoperability
+* Standard
+
+
+01. IoT ARCHITECTURE
+IoT design choices: The full spectrum of various levels of IoT architecture from the sensor to the cloud and back.
+
+
+* Requirements for IoT Architecture
+- IoT Architecture is a set of standards and layers that will group the requirements of different devices,
+actuators, and protocols. In order to pave the way for fascinating IoT Applications, the IoT Architecture
+needs to consist of the following:
+
+01. Distributed open architecture with end to end
+characteristics, interoperability of heterogeneous systems,
+neutral access, clear layering and resilience to physical network disruption
+
+02. Decentralized autonomicarchitectures based on peering of nodes.
+
+03. Architectures moving intelligence at edge of the
+networks, up to users’ terminals and things
+
+04. Cloud computing technology, event-driven architectures,
+disconnected operations and synchronization.
+
+05. Use of market mechanisms for increased competition and participation. 
+
+
+* IOT MODELS *
+- To be able to come up with a well-structured IoT architecture, the first step
+would be to review the existing IoT reference architectures proposed by
+different organizations as follows:
+
+01. IIRA
+- The Industrial Internet Consortium has delivered the Industrial Internet
+Reference Architecture (IIRA), with a strong industry focus specifically on
+industrial IoT applications (Shi-Wan et al., 2017).
+
+02. IoT-A EU
+- The Internet of Things IoT-A EU initiative delivered a detailed
+architecture and model from the functional and information perspectives
+(Carrez, 2017).
+
+03. RAMI 4.0
+- The Reference Architecture Model Industrie 4.0 (RAMI 4.0) goes
+beyond IoT, adding manufacturing and logistics details. This is
+effectively a reference architecture for smart factories dedicated to
+IoT standards that started in Germany (Platform-i40.de, 2018).
+
+04. IEEE P2413 
+- The IEEE P2413 project formed a working group dedicated to the IoT’s
+architectural framework, highlighting protection, security, privacy and
+safety issues (Soo, 2016).
+
+
+IoT Reference Architecture
+* IoT Applications
+* IoT Management Service Platform
+* IoT Network
+* IoT Devices Sensors and Actuators
+
+
+* COMMON FEATURES *
+
+01. Physical devices: The “things” in the IoT
+02. The gateway: A border module to link resourcelimited devices
+03. Applications: Data processing and analytics, for example
+04. Integration: A protocol to allow communication between nodes and servers
+
+
+Layer 1 – Physical Layer (Device Layer)
+- In this layer, devices such as sensors are
+used to capture parameters about the
+environment and to convert those into
+signals. Also in this layer, actuators are
+being used for the process of automation
+to perform any mechanical processes.
+Communication between the devices and
+servers can happen in two ways.
+
+- Either each device communicate directly to the
+servers using protocols such as REST, MQQT,
+XMPP or AMQP (explained in next topic);
+
+- Or they communicate indirectly through a
+gateway. This will allow devices to just
+capture parameters and send them to
+the gateway through short-range
+communication protocols like Zigbee,
+Bluetooth and RF. The gateway would
+then combine the received the
+messages and transmit to the required
+server. The goal is to garner enough
+interest from investors so that they are
+motivated to invest in the business
+
+
+Layer 2 – Gateway Layer
+- In this layer, gathering of data from
+various devices is the main requirement.
+It performs translation of various
+messages received from heterogeneous
+devices and sends the leverage data
+using protocols mentioned. Apart from
+doing the receiving and sending of data, it
+can also provide services like data
+filtering, cleanup, aggregation and packet
+content inspection. 
+
+
+Layer 3 - Integration Layer
+- Most of the time this layer is hosted in the
+cloud; however it could also be a
+dedicated server. This layer would be
+responsible for the collection of data from
+the gateways and storing in such way
+that they can be queried and processed.
+That is why the cloud is the preferred
+host as they also provided data
+redundancy. Examples are Apache
+Kafka, ThinkSpeed, Microsoft Azure (IoT). 
+
+
+Layer 4 - Application Layer
+- Finally, the Application Layer is
+responsible for the presenting the data
+collected, processed and labelled in such
+a way that it hides the complexities and is
+more inductive to users. In this layer, the
+data can be further enriched by applying
+machine learning algorithms and
+predictions can be made and presented
+to users. Presentation of final results can
+be through website or mobile apps.
+Examples of such platforms are IBM’s
+Bluemix, Apache Spark, and so on.
+
+
+Building Blocks Of IoT Architecture
+- The Internet of Things denotes the connection of devices,
+machines, and sensors to the Internet. An IoT system comprises
+four basic building blocks: sensors, processors, gateways, and
+applications.
+
+
+
+The architecture of IoT components:
+
+* Sensors
+- convert a non-electrical input to an
+electrical signal. Sensors are classified into two
+types: active and passive sensors. Whereas
+active sensors use and emit their own energy to
+collect real-time data (ex.: GPS, X-ray, radars),
+passive sensors use energy from external
+sources (ex: cameras). Additionally, sensors
+differentiate themselves by position, occupancy,
+and motion, velocity and acceleration, force,
+pressure, flow, humidity, light, radiation,
+temperature, etc.
+
+* Processors
+- are the brain, the main part of
+the IoT system. They process the raw data
+captured by the sensors and extract valuable
+information. Examples of processors are
+microcontrollers and microcomputers.
+
+* Gateways
+- are the combination of hardware
+and software used to connect one network
+to another. Gateways are responsible for
+bridging sensor nodes with the external
+Internet or World Wide Web. The figure
+below depicts how using gateways works.
+
+* Applications
+- provide a user interface and effective utilization of the data collected.
+
+
+
+IoT Networking
+- The actual TCP/IP networking model has 4
+layers with protocols defined at each layer.
+However since IoT has its own specificity,
+different protocols have emerged at each
+layer to suit it. They are presented in Figure:
+
+
+IoT and TCP/IP 
+
+| Layer              | Internet Protocol Suite (TCP/IP)           | IoT Smart Objects Protocol Suite          |
+|--------------------|--------------------------------------------|------------------------------------------|
+| Application Layer  | HTTP/FTP/SMTP/etc                          | HTTP/MQTT/CoAP/AMQP                      |
+| Transport Layer    | TCP/UDP                                    | **UDP** and TCP                          |
+| Network Layer      | IPv4/IPv6                                  | IPv6/6LoWPAN                             |
+| Link Layer         | 802.3 – Ethernet<br>802.11 – Wireless LAN  | WiFi/GSM/Bluetooth/LoRaWAN               |
+
+
+Layer 1 (Link Layer)
+
+* Wifi (Wireless Fidelity)
+- latest version can cover up to 400m and can provide bandwidth up to about 1 Gbps.
+* Bluetooth
+- can have a data rate up to 3 Mbps and maximum range of 100m.
+* ZigBee
+- works in the 2.4 GHz with a data rate of 250 Kbps and up to 200m or range.
+It also supports AES encryption.
+* WiMax
+- can cover large area up to 50 km (fix device) and 15 km (mobile
+device) and can provide a bandwidth up to 40 Mbps.
+* Cellular (2G/3G/4G)
+- provide worldwide coverage and varying bandwidth. However
+operational costs are higher.
+* Others
+- (less popular) include WirelessHart,
+DigiMesh, NFC, ANT, LoRaWAN, …
+
+
+Layers 2 and 3 (Network and Transport Layer)
+- look at the communication protocols which
+includes routing (choosing optimal path) and
+providing reliability (retransmission). Some
+existing protocols are being used, while some
+new ones have also seen the day.
+
+
+Layers 2 and 3 (Network and Transport Layer)
+
+01. IPv6 - is the upgraded version of IPv4, which could not cope
+with boom of ip addresses demand. IPv6 can provide 1
+IP address per cm2. It also has other features such as
+encryption and simple header (less overhead). 
+
+02. 6LoWPAN - is the acronym of IPv6 over Low power Wireless
+Personal Area Networks. “It is an adaption layer for IPv6 over
+IEEE802.15.4 links. This protocol operates only in the 2.4
+GHz frequency range with 250 kbps transfer rate" (Postscapes.com, 2017).
+
+03. UDP (User Datagram Protocol) - is used an as
+alternative to TCP (reliable delivery), that provides
+performance tuned for realtime applications. However
+UDP does not provide reliability; therefore this 
+aspect has to be addressed in higher level protocols.
+
+04. Others include QUIC, Aeron, DTLS, NanoIP, CCN and TSMP.
+
+
+
+Layer 4 (Application Layer)
+– concerns the data protocols, that is, specific
+for the application it is meant for. In this layer,
+the predominant protocol is HTTP (HyperText
+Transfer Protocol), which is still used by a lot of
+IoT Systems. However, some new protocols
+have also been implemented. 
+
+Layer 4 (Application Layer)
+
+* HTTP
+- mainly designed for web browsers, it also important
+for IoT as it supports the REST API which is
+becoming the main mechanism for Web
+Applications and services to communicate. However
+HTTP comes with a lot of overhead.
+
+* MQTT
+- (Message Queuing Telemetry Transport) "The MQTT protocol enables a
+publish/subscribe messaging model in an extremely lightweight way.
+It is useful for connections with remote locations where
+a small code footprint is required and/or network
+bandwidth is at a premium" (Postscapes.com, 2017).
+
+* AMQP
+- (Advanced Message Queuing Protocol) uses
+TCP/IP and publishes subscribe model and Point to Point
+
+* COAP
+- (Constrained Application Protocol) "is an application layer protocol that is
+intended for use in resource-constrained internet devices, such as WSN nodes.
+CoAP is designed to easily translate to HTTP for simplified integration with the
+web, while also meeting specialized requirements such as multicast support,
+very low overhead, and simplicity” (Postscapes.com, 2017).
+
+* AMQP
+- Others include SMCP, XMPP, DDS, LLAP, Web Sockets and SOAP
+
+
+
+How are the networks changing?
+
+* Extensions
+– More nodes, more connections
+– Any TIME, Any PLACE + Any THING
+– M2M, IoT
+• Billions of interconnected devices,
+• Everybody is connected
+
+* Expansions
+– Broadband
+– LTE, 5G
+
+* Enhancements
+– Smart networks
+– Data-centric and content-oriented networking
+– Context-aware (autonomous) systems
+
+
+
+ARCHITECTURAL TRENDS
+
+The following issues are important for IoT standardization
+
+* Designing Web Services
+* Designing Messaging Services
+* Designing Common Data Exchange Formats
+* Using Internet Protocol Layers or an IP proxy layer
+
+• The architectural framework needs to incorporate all the desired aspects
+such as scalability, flexibility, adaptability etc.
+
+• The components, and interfaces for various building blocks such as
+device interfaces, data formats, networking standards and protocols,
+service platforms and application interfaces are to be defined in IoT
+standards.
+
+
+THREAT VERSUS OPPORTUNITY
+
+THREAT
+If misunderstood and misconfigured, IoT poses risk to our data, privacy, and safety.
+
+OPPORTUNITY
+If understood and secured, IoT will enhance communications, lifestyle, and delivery of services.
+
+
+IoT Threats
+* Default, weak, and hardcoded credentials
+* Firmware and OS are difficult to update
+* Lack of vendor support for repairing vulnerabilities
+* Web interface vulnerability
+* Open ports can be vulnerable
+* Error in Coding
+* Distributed Denial-of-Service
+* Physical theft and tampering
+
+
+DATA LIFECYCLE
+
+Stage-1 Data Collection Context- metadata, ID,
+location, time Validation –format, range, source
+Verification –accuracy, consistency, integrity
+
+Stage-2 Data Analytics Compute- Store, index,
+aggregate, structure Correlate- benchmark,
+profile, informed decision Compliance- quality,
+control, governance, skills/competence
+
+Stage-3 Data Use/Reuse Own use/sharing –
+trust, access, value Action- interface,
+visualization, application Secondary use -
+risks/precaution, rights/ licenses
+
+
+IoT Data-Challenges
+* Multi-modal and diverse
+* Noisy and unfinished
+* Dependent on Time and Location
+* Dynamic and varies in quality
+* Crowed sourced data can be unreliable
+* Requires real-time analysis
+* Privacy and security
+* Data can be biased
+
+
+IoT Governance, Privacy and Security Challenges
+- The IoT’s diversity in devices, services and protocols, present challenges unseen
+and unprecedented in the modern communication
+- • Governance and Privacy Concerns
+- • Security Challenges
+- • Autonomy
+- • Computational Constraints
+- • Discovery
+- • Trust Relationships
+- It does not have any international compatibility standard.
+• It can be highly complex resulting in failure.
+- Reduced safety for users.
+• Internet of Things device may take control of life in due course of time
+with increasing AI technology. 
+
+
+
+A review of 2023 IoT challenges
+and advances
+● Building more semiconductor
+manufacturing plants in Asia,
+North America and Europe.
+Creating shorter supply
+chains for semiconductors
+should help avoid future
+issues with the chips needed
+to develop IoT applications.
+
+● Many companies are working
+to accelerate the rate at which
+IoT-derived data can be
+analyzed and turned into
+useful insights in data centers
+and at the edge. And with
+more IoT devices collecting
+data, there's more data for
+analysis and training
+
+
+
+MARKET TRENDS
+
+IoT growth drivers in 2024 and beyond
+In the coming year, the following areas will likely be the main contributors to IoT growth
+
+1. More AI support for IoT
+According to the IEEE survey,
+respondents indicated that the top four potential
+applications of AI in 2024 will be real-time
+cybersecurity vulnerability identification and attack
+prevention, increased supply chain and warehouse
+automation efficiencies, accelerated software
+development and more automated customer service.
+Increasing supply chain and warehouse efficiencies
+will also require significant investments in IoT
+technology to enable product identification, handling
+and development.
+
+2. More widespread connectivity for IoT devices
+A May 2023 report from IoT Analytics,
+"State of IoT -- Spring 2023," projected that by 2025,
+the growth of IoT devices could increase to 27 billion
+connected IoT devices. A trend that will enable this
+growth is the increased replacement of 2G/3G
+wireless networks with 4G/5G networks. This will
+particularly increase connectivity in urban
+communities, but many rural areas will still depend
+upon lower performing networks.
+
+3. Lower costs for IoT product components
+Other chips saw oversupply in 2023,
+including dynamic RAM (DRAM) and NAND flash
+memories, which led to lower prices. Lower prices
+and a greater availability of components going into
+2024 will result in lower costs for endpoint IoT
+products, which could accelerate further adoption.
+
+4. New technological developments
+IoT is attracting many new technological
+developments that will drive growth in 2024 and
+beyond. These developments include changes in
+computer architectures -- driven in part by
+changes in storage and memory approaches --
+that will affect the way data is stored and
+processed in data centers and at the network
+edge. This will result in less data movement and
+lower-power data processing.
+
+5. System disaggregation enabling more efficient data processing
+Disaggregation of traditional data center
+servers and composing virtual computing systems
+enable more efficient processing of data as well as
+lower power consumption and more sustainable
+computing. Much of the data processed in data
+centers is from IoT applications, and as IoT grows,
+this processing will also grow. Non-volatile memory
+express (NVMe), Compute Express Link (CXL) and
+the changes they enable in computer architecture
+will reduce the costs of many IoT applications.
+
+6. New chip design and standards
+In 2022, a standard called Universal
+Chiplet Interconnect Express (UCIe) was introduced
+that aimed to enable specialized chips from many
+manufacturers to be combined together in a compact
+package. This enables the creation of more
+specialized semiconductor chiplet packages for
+special applications and creates the need for a new
+type of foundry for assembling chiplets into a UCIe
+package. UCIe will enable more efficient
+semiconductor devices for data centers, the network
+edge and for IoT endpoint devices.
+
+7. Emerging non-volatile or persistent memory technologies for IoT
+In addition to traditional memory technologies,
+there are emerging non-volatile or persistent memory
+technologies that are starting to show up in IoT devices,
+particularly for code storage in designs under 28 nm. For
+instance, magnetic RAM (MRAM) and resistive RAM
+(RRAM) are used in some consumer IoT devices, such as
+wearables. Replacing static RAM with a non-volatile
+memory, such as MRAM, enables more lower-power states
+when the IoT device is not being actively used. For energyconstrained applications, such as those running on batteries,
+this increases the usefulness and life of a charge for the IoT device
+
+
+IoT Enabling Technologies
+
+WIRELESS SENSOR NETWORK (WSN)
+- Data collection
+
+CLOUD COMPUTING
+- Storage and processing
+
+BIG DATA ANALYTICS
+- Provide insights
+
+EMBEDDED SYSTEMS
+- Process sensor data
+
+COMMUNICATION PROTOCOLS
+- Device connectivity
+
+
+A Wireless Sensor Network (WSN)
+
+● A Wireless Sensor Network (WSN)
+comprises many sensor nodes, each
+of which has sensors that can identify
+a wide range of physical phenomena,
+including pressure, heat, light, and
+more. With the rapid technical
+advancement of sensors, WSNs will
+become the core technology for IoT.
+• These sensors may capture a wide range of information, from location data to device
+orientation. Together, these sensors provide a considerable amount of data, both
+unstructured (such as images and movies) and organized (like GPS coordinates or
+acceleration readings). These sensor nodes are always linked to the internet through Wi-Fi,
+3G, or 4G, ensuring a steady flow of data.
+
+
+Cloud Computing
+● Cloud computing is another important
+IoT-enabling technology. Massive
+amounts of data are generated by IoT
+devices. Cloud solutions offer
+scalable and dependable storage and
+processing for this data. They offer
+data analysis, remote device
+administration, and secure access to
+information from anywhere. The cloud
+computing industry is dominated by
+Amazon Web Services (AWS), which
+provides a wide range of dependable,
+scalable, and affordable cloud
+computing services. As of 2023, AWS
+is a one-stop solution for various
+cloud services, from data storage to
+analytics.
+
+
+THREE MAIN TYPES OF CLOUD COMPUTING
+
+01. Infrastructure as a Service (IaaS):
+- IaaS offers virtualized computer
+resources over the Internet. Users
+can pay-as-you-go for virtual
+machines, storage, and
+networking. It makes it suitable for
+tasks like hosting websites and
+running development environments.
+
+02. Platform as a Service (PaaS):
+- PaaS offers a platform that
+enables developers to create, test,
+and deploy applications without
+worrying about the underlying
+infrastructure. It delivers a platform
+that includes operating systems,
+development tools, and databases.
+It speeds up the development
+process and is perfect for teams
+working on software.
+
+03. Software as a Service (SaaS):
+- SaaS provides ready-to-use
+software applications over the
+Internet. These applications may
+be accessed by users via web
+browsers without the need to
+install or maintain them locally.
+Common examples include Gmail,
+Microsoft 365, etc. SaaS is userfriendly and streamlines software
+management.
+
+
+
+Big Data Analytics
+● Big data analytics is the process of
+inspecting large volumes of data to
+reveal valuable insights, patterns,
+correlations, and trends.
+Organizations can use this analytical
+approach to make data-informed
+decisions. It entails the use of
+statistical analytic techniques, such
+as clustering and regression, to large
+datasets using modern tools and
+technologies. These analyses can
+uncover hidden patterns, market
+trends, consumer behaviours, and
+other useful information in structured
+and unstructured data sources, such
+as streaming and batch data.
+
+Real-World Examples
+* Facebook
+- 100 TB/day
+* Youtube
+- 48, 000 fresh videos daily
+* Linkedin
+- 10TB on a daily basis
+* twitter
+- 400M tweets/day
+
+Embedded Systems
+● Embedded systems, such as
+microcontrollers and other
+hardware components, are
+critical in processing sensor
+data. The information gathered
+by these sensors isn't
+immediately usable. Instead, the
+embedded system intervenes to make it useful.
+
+
+Communication Protocols
+- There are several popular IoT
+communication protocols, each
+with unique advantages and
+applications. Several important
+IoT communication protocols
+are listed: 
+
+● Message Queue Telemetry Transport (MQTT)
+● Hypertext Transfer Protocol (HTTP)
+● Constrained Application Protocol (CoAP)
+● Bluetooth
+● Zigbee
+● Bluetooth Low Energy (BLE)
+● Wi-Fi
+● Z-Wave
+
+
+* IoT Software Development Tools * 
+
+Features of IoT Tools
+
+* Device Management
+- Registering, configuring, and monitoring IoT devices, including
+provisioning, firmware updates, and remote management.
+
+* Data Visualization:
+- Customizable dashboards for real-time monitoring and analysis
+of IoT data, facilitating data-driven decisions.
+
+* Connectivity and Integration
+- Support for various IoT protocols, cloud platforms, and
+databases, enabling seamless communication between
+devices and services
+
+* Rule Engine and Automation
+- Definition of rules, triggering actions, and task automation
+based on specific conditions or events in the IoT system.
+
+* Security and Privacy
+- Authentication, access control, encryption, and secure
+communication protocols to safeguard IoT devices and data.
+
+* Scalability and Performance
+- Optimization for large-scale IoT deployments, managing
+numerous devices and processing high volumes of data.
+
+* Analytics and Machine Learning
+- Advanced capabilities for data processing, anomaly detection,
+predictive modeling, and intelligent insights.
+

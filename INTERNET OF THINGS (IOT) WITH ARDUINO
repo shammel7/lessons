@@ -1,0 +1,147 @@
+Internet of Things (IoT) with Arduino
+
+
+ARDUINO
+- is a microcontroller-based platform that consists of open-source hardware, software, 
+and programming tools. The concept of the Arduino ecosystem revolves around 
+simplicity, making microcontrollers more accessible to the general public and great educational aids.
+
+
+* THE BIRTH OF ARDUINO *
+
+- Created in 2003
+
+- By a group of academics at the Interaction 
+Design Institute in Ivrea, Italy
+
+- The platform was named after a bar in the same
+town where the academics met to discuss the project.
+
+- One of the project's goals was to remove the barrier of entry 
+for students who wanted to realize automation ideas but 
+did not have enough resources to purchase expensive 
+controllers or knowledge to build their printed circuit boards
+
+
+* They decided to design their own circuit board
+- Massimo Banzi & David Cuartielles
+
+* Designed the programming language for the board.
+- David Mellis
+
+
+ARDUINO is the go-to gear for artists, hobbyists, 
+students, and anyone with a gadgetry dream.
+
+
+ARDUINO REACHED WORLDWIDE
+
+ARDUINO has found tremendous success as an 
+educational tool, as many universities worldwide have 
+adopted it as a way to introduce students to control automation.
+
+
+
+WHAT CAN YOU DO WITH ARDUINO?
+⏣ Make a line-following robot
+⏣ Make a fluffy toy that lights up
+⏣ Make your phone ring when you receive an e-mail
+⏣ Make a Metroid-style arm cannon
+⏣ Make a coffee maker that sounds an alarm when your coffee is ready
+⏣ Make device that can record your heart rate when you ride your bike
+
+DIFFERENT TYPES OF ARDUINO
+* Boarduino Kit
+* Arduino LilyPad
+* Arduino Uno
+* DIY Arduino
+* Arduino Mega 2560
+
+
+
+* ARDUINO UNO *
+
+What does it have?
+• 14 Digital In/Out pins (6 can be used as PWM 
+(Pulse Width Modulation)
+• 6 Analog Inputs
+• A USB Connection
+• A Power Jack
+• Reset Button
+• On-board LED
+• SCL/SDA pins (Serial Clock/ Serial Data pins)
+
+In short, it contains everything needed to support the microcontroller; 
+simply connect it to a computer with a USB cable or power it with a 
+AC-to-DC adapter or battery to get started.
+
+
+DIGITAL
+- Microcontrollers are digital devices – ON or OFF. Also called – discrete.
+
+ANALOG
+- Analog signals are anything that can be a full range of values.
+
+
+ANALOG VS DIGITAL
+
+Analog Sensors
+
+| Sensor         | Variable         |
+|----------------|-----------------|
+| mic            | soundVolume     |
+| Photoresistor  | lightLevel      |
+| Potentiometer  | dialPosition    |
+| Temp Sensor    | temperature     |
+| FlexSensor     | blend           |
+| Accelerometer  | tilt/acceleration |
+
+Digital Sensors
+•Digital sensors are more straight forward than Analog.
+•No matter what the sensor there are only two settings: On and Off
+•Example, Push button, Switch
+
+
+SERIAL COMMUNICATION
+
+01. “Serial” because data is broken into bits, each sent 
+one after another in a single wire.
+
+02. Uploading sends the bits through USB 
+cable to the Arduino
+
+03. Compiling turns your program into 
+binary data (ones and zeros)
+
+04. The two LEDs near the USB connector blink when data is transmitted.
+• RX blinks when the Arduino is Receiving data.
+• TX blinks when the Arduino is Transmitting data
+
+
+Why is Serial Communication Important in Arduino?
+
+* Sensor Integration
+- Many sensors and modules used with Arduino communicate via serial 
+protocols. This allows you to collect data from various sensors 
+and process it on your Arduino board.
+
+* External Control
+- Serial communication enables you to control your Arduino 
+from a computer or another microcontroller. This is 
+essential for remote monitoring and control applications.
+
+* Debugging and Monitoring
+- Serial communication provides a way to send debugging 
+information and monitor the operation of your Arduino 
+code, making it easier to identify and fix issues.
+
+
+6 MAJOR CONCEPTS
+1. digitalWrite()
+2. analogWrite()
+3. digitalRead()
+4. If (statements) / Boolean
+5. analogRead
+6. Serial Communication
+
+

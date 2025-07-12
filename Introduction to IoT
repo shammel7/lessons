@@ -1,0 +1,309 @@
+INTERNET OF THINGS (IoT)
+Chapter I. Introduction & Architecture of IoT
+
+"TABLE OF CONTENTS"
+01. CONCEPTS & DEFINITIONS OF IoT
+02. APPLICATIONS OF IoT
+03. HISTORY OF IoT
+04. REQUIREMENTS OF IoT
+
+
+01. CONCEPTS & DEFINITIONS OF IoT
+
+WHY IOT?
+* BETTER SCOPE FOR DATA SCIENTIST
+* CAREER OPPORTUNITIES
+* REAL-TIME ANALYTICS
+* ACTIONABLE DATA
+* INDUSTRY-WIDE CONNECTIVITY
+
+What is IoT?
+- IoT is a network of interconnected objects (things) 
+that are embedded with sensors, actuators, software, 
+and other technologies for the purpose of connecting 
+and exchanging data with other devices and systems over the internet.
+- IoT is the intersection of the
+Internet, Things and Data.
+- IoT collects that data from millions of
+sensors embedded in everything from cars,
+to refrigerators, to space capsules.
+
+
+IoT HISTORICAL PERSPECTIVE
+- In 1990
+The term Internet of Things was coined by Kevin Ashton 
+when he was working for Procter & Gamble (P&G) in 1999.
+- Later on in 2002
+Forbes published an article also entitled Internet of Things.
+
+
+WHAT ARE THE “THINGS”?
+It is important to note that the word THING has a special 
+meaning in IoT. In the context of IoT, a thing is any 
+physical object that can connect to the Internet.
+
+
+“SMART” things
+In the context of the Internet of Things, the 
+adjective “smart” means anything that is IoT-based.
+
+
+HARDWARE FOR IOT
+
+FOUR MAIN COMPONENTS OF IoT
+* Sensing
+* Communication
+* Computing
+* Acting
+
+* SENSORS *
+- It measures physical input from the surroundings and converts it into electrical signal (Analog or Digital) 
+- Integration with microprocessor/microcontroller embedded system.
+- Example in Smartphone – (GPS, Fingerprint, Tilt, camera, etc.)
+- The size of sensors is very compact due to advancements in technology
+- The choice of sensor is based on accuracy, precision, level of intelligence, and the need of the application.
+
+
+* COMMON TYPES OF SENSOR *
+
+* Temperature sensor
+- detects the temperature of an object or an environment. 
+Used for: Thermostats, digital thermometers, etc.
+
+* Proximity sensor
+- detects motion Used for: alarm systems, parking sensors etc
+
+* Optical sensor
+- converts light energy into digital signals Used for: digital cameras
+
+* Pressure sensor
+- converts physical power into electronic signals
+Used for: touch screen devices
+
+* Humidity sensor
+- measures the amount of water vapor in the atmosphere
+Used for: weather related IoT Devices
+
+* Accelerometer
+- measure acceleration Used for: running apps, navigation
+
+* Gyroscope
+- uses Earth’s gravity to detect the position or 
+orientation of an object Used for: 3d motion capture
+
+
+* ACTUATORS *
+- After receiving input from its environment, smart objects can then react or perform appropriate actions. This is done 
+using actuators. An actuator is a component or mechanism that turns energy into motion. Basically, actuators 
+comprise the “moving parts” of a smart object. For example, actuators in a CCTV camera allows the user to point it to different directions.
+- While sensors, sense; actuators act
+- Cause an action, to control the situation
+- To make something happen based on the trigger, actuators are used
+- Control signal could be analog or digital.
+- To turn something on or off Actuators are used
+
+* TYPES OF ACTUATORS * 
+
+01. HYDRAULIC
+- These actuators harness hydraulic power to perform mechanical functions and 
+operations. Generally, these types of actuators are powered by a cylinder or a 
+fluid motor. According to the requirements and recommendations, the 
+mechanical motion is converted into oscillatory, linear, or rotary.
+
+02. PNEUMATIC
+- Pneumatic actuators create two types of motions, rotary or linear. They are powered 
+by a vacuum or compressed air at high pressure to implement the required type of motion. 
+Compared to other types of actuators, pneumatic actuators are low-cost and low-maintenance actuators.
+
+03. ELECTRICAL
+- In these actuators, a motor converts electrical energy into mechanical motion. 
+These actuators are powered by electricity and provide precision control. 
+These actuators are heavily used in industrial settings to automate mechanical operations
+
+04. THERMAL
+The thermal actuators have thermal-sensitive material fitted inside, which is used 
+to produce linear motion. The word thermal implies that these actuators are 
+used in response to temperature changes. The most popular use case 
+includes shutting off valves and operating latches or switches.
+
+05. MAGNETIC
+- These types of actuators convert electromagnetic energy into mechanical 
+output and operate in a linear or rotary direction. Magnetic actuators can 
+provide continuous mechanical operation and are popularly used in the 
+automotive and aerospace industries.
+
+
+* Connectivity & Gateway *
+
+Roles of Connectivity Protocols
+- It plays a crucial role in connecting sensors and actuators with IoT ecosystem
+- Based on medium and range, various protocols are available
+- Examples, Cellular, Bluetooth, LoRaWAN, etc,
+
+
+GATEWAY
+- It provides an effective communication 
+bridge in between edge devices and IoT cloud
+
+ROLES OF GATEWAY
+-Ensures seamless communications
+- Easy management of data traffic
+- Offers security
+- Latest encryption practices
+- Data processing
+- Minimizing the large data
+- Intelligent IoT gateways
+
+
+IOT CLOUD
+
+ROLES OF IOT CLOUD
+-Data needs to be processed
+To make or break a deal (Based on processed data)
+-Latency cannot be compromised (For real-time 
+applications)
+IoT cloud is the brain of IoT ecosystem
+-Edge computing (it is used for local processing)
+
+
+IoT analytics and Data management
+* Data Extraction
+* Data Analytics
+* Data Aggregation
+* Data Classification
+
+
+IoT analytics and Data management
+
+- Data is the fuel for IoT applications
+- Converting raw data into useful insights
+- Data extraction, data aggregation, data classification are the major tasks of IoT Analytics and data management
+- Deep Learning (It can be for data prediction for some application)
+- Storage power and intelligent computation are key parameters of IoT analytics and data management
+
+User Interface
+- Notification
+- Alerts
+- Remote Control
+- Live Trends
+
+User
+- Tasks is monitor and control the field device for the user
+- Types ofnotificationss (Notification, Email, Alerts, Alarm, etc)
+- It can also send back the command to the field of devices
+- It might provide user with an actual live feed or show trends
+
+CONTROLLER
+- a connected device implementing an
+algorithm to transform input data in actions.
+
+
+
+* IoT Characteristics *
+
+Pervasive
+• IoT devices are Ubiquitous
+• Embedded everywhere
+
+Connectivity
+• Networks exist on much smaller and cheaper scale
+
+Heterogeneous
+• Many technologies interact with each other
+
+Scalability
+• Order of magnitude higher than current Internet
+
+Sensors
+• IoT loses its distinction without sensors
+• Sensors transform IoT from a passive 
+network of devices into an active system
+
+Active Engagement
+• IoT introduces a new paradigm for active content, 
+product and service engagement
+
+Small Devices
+• IoT devices have become smaller, cheaper, and more powerful over time.
+• IoT exploits small devices to deliver its precision, scalability, and versatility
+
+Intelligence
+• IoT enhances every aspect of life with the power of data 
+collection, artificial intelligence and smart networks
+
+
+* Advantages of the IoT *
+
+Improved Customer Engagement and Decision making
+• Transform passive engagement into vibrant and active engagement with users
+• Gain insight into potential new products and service
+• Deliver post-sales services efficiently
+
+Reduced Waste
+• Make areas of improvement clear
+• Provide real-world information leading to the more effective management of resources
+
+Enhanced Data Collection
+• Collect sensing data from the right places in the right times
+• Remote troubleshooting of product
+
+Efficiency and lower operating costs
+• Use cheap technology to lower the operating expenses and promote energy conservation
+• Monitor the performance, quality, and reliability of products and services
+
+Technology Optimization
+• Improve customer experience and better understand product use
+• Unlock the world of critical functional and field data
+• Deliver revenue-generating post-sales services
+
+New business opportunities
+• IoT provides the the ability to collect data from thenetwork and use advanced analytics to uncover new business insights and opportunities
+
+
+
+* Disadvantages of IoT *
+
+Network security
+• IoT creates an ecosystem of connected devices communicating over networks which leave users exposed to various kinds of security attacks
+
+Complexity
+• IoT systems are complicated in terms of design, deployment, and maintenance
+• IoT often uses multiple technologies and a large set of new enabling technologies
+
+Compliance
+• IoT technology must comply with regulations
+• IoT complexity makesthe issue of compliance seem incredibly challenging
+
+Data privacy
+• The sophistication of IoT provides substantial personal data in extreme detail without the user’s active participation
+
+Flexibility
+• IoT systems are flexible in integrating easily with each other, which may cause conflicts between different vendors or locked systems
+
+Unemployment
+• The wide-use of IoT will result in a significant loss of mundane jobs
+• IoT will have a devastating impact on the employment prospects of less-educated workers
+
+
+
+IoT Domains
+• With sensors becoming increasingly ubiquitous, there is tremendous potential 
+for innovative IoT applications across a wide variety of domains
+
+* Predictive Maintenance
+* Automated Transportation
+* Smart Grid
+* Safety and Security
+* Military
+* Inventory Management
+* Smart City
+* Smart Home
+* Precision Agriculture
+* Health
+
+
+IoT will definitely be the paradigm shift of effective 
+multitasking with massive applications.
+
+
+

@@ -115,9 +115,32 @@ However since IoT has its own specificity,
 different protocols have emerged at each layer to suit it. They are presented in Figure:
 
 
-IoT and TCP/IP 
-https://res.cloudinary.com/dnraumg4f/image/upload/v1752396350/515369790_1366866577710464_2245106590970401734_n_lguvwl.jpg
+                        IoT and TCP/IP 
 
+Internet Protocol Suite (TCP/IP)
+-------------------------------------------
+| Application Layer | ● HTTP/FTP/SMTP/etc |
+-------------------------------------------
+| Transport Layer   | ● TCP/UDP           |
+-------------------------------------------
+| Network Layer     | ● IPv4/IPV6         |
+-------------------------------------------
+| Link Layer        | ● 802.3 - Ethernet  |
+|                   | ● 802.11 - Wireless |
+|                   |            LAN      |
+-------------------------------------------
+
+IoT Smart Objects Protocols Suite
+-------------------------------------------
+| Application Layer | ●HTTP/MQTT/CoAP/AMQP|
+-------------------------------------------
+| Transport Layer   | ● UDP and TCP       |
+-------------------------------------------
+| Network Layer     | ● IPv6/6LoWPAN      |
+-------------------------------------------
+| Link Layer        | ● WiFi/GSM/Bluetooth|
+|                   | /LoRaWAN            |
+-------------------------------------------
 
 Layer 1 (Link Layer)
 

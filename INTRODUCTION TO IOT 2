@@ -1,12 +1,12 @@
-            Internet of Things
+                                       Internet of Things
 
 
 Reasons of IoT
-● Data deluge : The explosion of theamount of data collected andexchanged is one of the major reason why IoT came in existence. Forecasts indicate that in the year 2015 more than 220 Exabytes of data are stored. So we need novel mechanisms to find, fetch, and transmit data.
-● There is decrease in energy required tooperate intelligent devices. The search will be for a zero level of entropy where the device or system will have to harvest its own energy. 
-● Miniaturization of devices: the devices are becoming increasingly smaller.
-● Autonomic management: the devices/systems of future will have selfmanagement, self-healing, and selfconfiguration capabilities.
-● IPv6 as an integration layer: allows to exploit the potential of IPv6 and related standards.
+> Data deluge : The explosion of theamount of data collected andexchanged is one of the major reason why IoT came in existence. Forecasts indicate that in the year 2015 more than 220 Exabytes of data are stored. So we need novel mechanisms to find, fetch, and transmit data.
+> There is decrease in energy required tooperate intelligent devices. The search will be for a zero level of entropy where the device or system will have to harvest its own energy. 
+> Miniaturization of devices: the devices are becoming increasingly smaller.
+> Autonomic management: the devices/systems of future will have selfmanagement, self-healing, and selfconfiguration capabilities.
+> IPv6 as an integration layer: allows to exploit the potential of IPv6 and related standards.
 
 
 Internet of Things Enablers
@@ -14,7 +14,7 @@ Internet of Things Enablers
 * Intelligence
 * Communication
 * Integration
-* Interoperability
+* Interoperability   
 * Standard
 
 
